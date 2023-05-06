@@ -1,0 +1,58 @@
+/* Header */
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Poppins, Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerbar {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.header {
+    color: #F9FAF8; 
+    padding-left: 32px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.navmenu {
+    color: #F9FAF8;
+    padding-right: 32px;
+    display: flex;
+    flex:auto;
+    justify-content: flex-end;
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+/* Hero */
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}
+
+.heroleft {
+
+}
