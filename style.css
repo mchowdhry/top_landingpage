@@ -2,11 +2,11 @@
 
 body {
     height: 100vh;
-    margin: 0;
-    overflow: hidden;
     font-family: Poppins, Roboto, sans-serif;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
+    max-width: 100%;
 }
 
 .headerbar {
@@ -54,5 +54,12 @@ a {
 }
 
 .heroleft {
+    color: #F9FAF8;
+}
 
+/* Fold */
+
+img {
+    height: auto;
+    width: 400px;
 }
