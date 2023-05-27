@@ -1,65 +1,277 @@
-/* Header */
+
+
+/* Navbar */
 
 body {
-    height: 100vh;
-    font-family: Poppins, Roboto, sans-serif;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
+    margin: 0;
+    background-color: white;
 }
 
-.headerbar {
+.header-main {
+    width: 100%;
+    height: 60px;
     background-color: #1F2937;
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
 }
 
-.header {
-    color: #F9FAF8; 
-    padding-left: 32px;
+.header-main-name {
+    width: fit-content;
+    height: 100%;
+    /* background-color: yellow; */
+    color: white; 
+    padding-left: 60px;
+    display: flex;
+}
+
+.header-logo {
+    font-family: poppins, sans-serif, helvetica;
+    font-size: 24px;
+    align-self: center;
+}
+
+.header-main-nav {
+    width: fit-content;
+    height: 100%;
+    /* background-color: red; */
+    color: white;
+    padding-right: 60px;
     display: flex;
     align-items: center;
-    font-size: 24px;
+
 }
 
-.navmenu {
-    color: #F9FAF8;
-    padding-right: 32px;
-    display: flex;
-    flex:auto;
-    justify-content: flex-end;
-    
-}
-
-ul {
-    display: flex;
+.header-main-nav ul {
     list-style-type: none;
-    gap: 16px;
 }
 
-a {
+.header-main-nav ul li {
+    display: inline;
+    float: left;
+}
+
+.header-main-nav ul li a {
     text-decoration: none;
-    color: #F9FAF8;
-    font-size: 18px;
+    color: white;
+    padding: 0 20px;
+    font-family: poppins, sans-serif, helvetica;
+    font-size: 16px;
+}
+
+.header-main-nav ul li a:hover {
+    color: orange;
 }
 
 /* Hero */
 
-.hero {
+.hero-section {
     background-color: #1F2937;
+    margin: auto;
+    min-height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 600px;
 }
 
-.heroleft {
-    color: #F9FAF8;
+h1 {
+    margin-top: 0;
+    font-family: poppins, sans-serif, helvetica;
+    color: white;
+}
+
+.hero-left {
+    margin-right: 40px;
+    padding-left: 60px;
+}
+
+.hero-left p {
+    font-family: poppins, sans-serif, helvetica;
+    color: white;
+}
+
+.hero-left button {
+    font-size: 16px;
+    font-family: poppins, sans-serif, helvetica;
+    font-weight: 400;
+    color: #1F2937;
+    background-color: #3882f6;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+.hero-left button:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.hero-image {
+    padding-right: 60px;
+}
+
+.hero-image img{
+    width: 500px;
+    height: auto;
 }
 
 /* Fold */
 
-img {
-    height: auto;
-    width: 400px;
+.fold {
+    min-height: 500px;
+}
+
+.fold-header {
+    display: flex;
+    justify-content: center;
+}
+
+.fold-header p {
+    font-family: poppins, sans-serif, helvetica;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.categories {
+    
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 100px;
+}
+
+.categories .four-cubes{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.four-cubes .landing .text{
+    font-family: poppins, sans-serif, helvetica;
+    font-size: 18px;
+    padding-top: 10px;
+
+}
+
+.four-cubes .landing img {
+    height: 160px;
+    width: 260px;
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+}
+
+/* Quote Section */
+
+.quote-section {
+    min-height: 340px;
+    background-color: #E5E7EB;
+}
+
+.actual-quote {
+    font-family: poppins, sans-serif, helvetica;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+
+.famous-person {
+    font-family: poppins, sans-serif, helvetica;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 60px;
+}
+
+/* Call to action section */ 
+
+.cta-section {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    height: 200px;
+    width: 1110px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px
+}
+
+.cta-left {
+    padding-left: 20px;
+}
+
+.cta-maintext {
+    font-family: poppins, sans-serif, helvetica;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+.cta-subtext {
+    font-family: poppins, sans-serif, helvetica;
+    font-size: 18px;
+    color: white;
+    padding-top: 6px;
+}
+
+.cta-right {
+    padding-right: 20px
+}
+
+.cta-right button {
+    font-size: 16px;
+    font-family: poppins, sans-serif, helvetica;
+    font-weight: 400;
+    color: #1F2937;
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    width: 120px;
+}
+
+.cta-right button:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+/* Call to action section */ 
+
+footer {
+    height: 80px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: poppins, sans-serif, helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
 }
