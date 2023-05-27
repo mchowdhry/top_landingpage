@@ -1,4 +1,4 @@
-/* https://www.youtube.com/watch?v=HkNNyDtm7mg 24:56 */
+
 
 /* Navbar */
 
@@ -107,6 +107,7 @@ h1 {
 
 .hero-left button:hover {
     background-color: orange;
+    color: white;
     cursor: pointer;
 }
 
@@ -168,7 +169,7 @@ h1 {
 /* Quote Section */
 
 .quote-section {
-    min-height: 400px;
+    min-height: 340px;
     background-color: #E5E7EB;
 }
 
@@ -193,4 +194,84 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 0 60px;
+}
+
+/* Call to action section */ 
+
+.cta-section {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    height: 200px;
+    width: 1110px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px
+}
+
+.cta-left {
+    padding-left: 20px;
+}
+
+.cta-maintext {
+    font-family: poppins, sans-serif, helvetica;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+.cta-subtext {
+    font-family: poppins, sans-serif, helvetica;
+    font-size: 18px;
+    color: white;
+    padding-top: 6px;
+}
+
+.cta-right {
+    padding-right: 20px
+}
+
+.cta-right button {
+    font-size: 16px;
+    font-family: poppins, sans-serif, helvetica;
+    font-weight: 400;
+    color: #1F2937;
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    width: 120px;
+}
+
+.cta-right button:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+/* Call to action section */ 
+
+footer {
+    height: 80px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: poppins, sans-serif, helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
 }
